@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+}
+
+.cover-image {
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url(../imgs/starter.png);
+  background-size: 100% 100%;
+  background-position: center center; */
+  background-color: #eee;
+}
+
+.start-now {
+  position: absolute;
+  top: 85%;
+  left: 43%;
+  width: 17%; 
+  background-color: #FFF;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+  border: none;
+  background: #006E96;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+}
